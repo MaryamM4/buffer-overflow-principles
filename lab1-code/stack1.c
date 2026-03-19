@@ -6,10 +6,8 @@ int func(char *str)
 {
   int variable_a;
   char buffer[12];
-  /* Fill in code here to print the address of
-   * the array "buffer".
-   * Your code here:
-   */
+  
+  printf("Address of buffer: %p\n", (void*)buffer);
 
   strcpy(buffer, str);
   
